@@ -5,8 +5,8 @@ function myFunction(){
 		document.getElementsByName('datedateReceived')[0].value=today.getDate();
 		document.getElementsByName('yeardateReceived')[0].value=today.getFullYear();
 		document.getElementsByName('appModeCd')[0].value='WI';
-		document.getElementsByName('firstName')[0].value='Suzanne';
-		document.getElementsByName('lastName')[0].value='Shaw';
+		document.getElementsByName('firstName')[0].value='Husband';
+		document.getElementsByName('lastName')[0].value='Test';
 		document.getElementById('button2').click();      
     	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Application - Address'){
@@ -178,7 +178,7 @@ function myFunction(){
 		document.getElementById('actionButtonNext').click()
 	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Liquid Asset - Details'){
-		document.getElementById('cin').selectedIndex=1;
+		document.getElementById('cin').selectedIndex=2;
 		document.getElementsByName('montheffectiveBeginDate')[0].value=today.getMonth()+1;
 		document.getElementsByName('dateeffectiveBeginDate')[0].value=today.getDate();
 		document.getElementsByName('yeareffectiveBeginDate')[0].value=today.getFullYear();	
@@ -192,7 +192,7 @@ function myFunction(){
 		document.getElementsByName('jointlyOwnedSw')[0].value='N';
 		document.getElementsByName('characteristic_CH')[0].value='P';
 		document.getElementById('characteristic_CH').onchange();
-		document.getElementsByName('liquidAssetAmount')[0].value='30';
+		document.getElementsByName('liquidAssetAmount')[0].value='10';
 		document.getElementsByName('monthstartdate')[0].value=today.getMonth()+1;
 		document.getElementsByName('datestartdate')[0].value=today.getDate();
 		document.getElementsByName('yearstartdate')[0].value=today.getFullYear();		
@@ -202,7 +202,7 @@ function myFunction(){
 		document.getElementById('actionButtonNext').click()
 	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Livestock - Details'){
-		document.getElementById('cin').selectedIndex=1;
+		document.getElementById('cin').selectedIndex=3;
 		document.getElementsByName('montheffectiveBeginDate')[0].value=today.getMonth()+1;
 		document.getElementsByName('dateeffectiveBeginDate')[0].value=today.getDate();
 		document.getElementsByName('yeareffectiveBeginDate')[0].value=today.getFullYear();
@@ -217,14 +217,14 @@ function myFunction(){
 		document.getElementById('incomeEDTestSw').value='Y';
 		document.getElementById('rtcheck3').value='Y';
 		document.getElementById('rtcheck1').value='Y';
-		document.getElementsByName('isSelfEmployed')[0].value='N';
-		document.getElementsByName('additionalIncomeExpenses')[0].value='N';
+		document.getElementsByName('isSelfEmployed')[0].value='Y';
+		document.getElementsByName('additionalIncomeExpenses')[0].value='Y';
 		document.getElementsByName('householdCommunitySpouseIncomeAllowance')[0].value='N';
 		document.getElementById('rtcheck5').value='N';
 		document.getElementById('actionButtonNext').click();
 	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Unearned Income - Details'){
-		document.getElementById('cin').selectedIndex=1;
+		document.getElementById('cin').selectedIndex=2;
 		document.getElementsByName('montheffectiveBeginDate')[0].value=today.getMonth()+1;
 		document.getElementsByName('dateeffectiveBeginDate')[0].value=today.getDate();
 		document.getElementsByName('yeareffectiveBeginDate')[0].value=today.getFullYear();
@@ -271,7 +271,7 @@ function myFunction(){
 		document.getElementsByName('businessType')[0].value='FR';
 		document.getElementsByName('businessName')[0].value='Test';
 		document.getElementsByName('businessActivity')[0].value='Test';
-		document.getElementsByName('hoursPerWeekActiveParticipate')[0].value='30';
+		document.getElementsByName('hoursPerWeekActiveParticipate')[0].value='20';
 		document.getElementsByName('incomeDocumentation')[0].value='BR';
 		document.getElementsByName('businessJointlyOwnedSw')[0].value='N';
 		document.getElementById('actionButtonNext').click()
@@ -317,7 +317,7 @@ function myFunction(){
 		document.getElementsByName('isHouseholdCurrentlyOccupying')[0].value='Y';			
 		document.getElementsByName('expenseTypeCd')[0].value='SURE';
 		document.getElementsByName('frequency')[0].value='MO';
-		document.getElementsByName('amountperFrequency')[0].value='100';
+		document.getElementsByName('amountperFrequency')[0].value='200';
 		document.getElementsByName('verification')[0].value='HC';
 		document.getElementsByName('receiveRentSubsidy')[0].value='N';
 		document.getElementById('actionButtonNext').click()
