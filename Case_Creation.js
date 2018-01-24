@@ -186,6 +186,7 @@ function myFunction(){
 		document.getElementsByName('dateverfReceivedDate')[0].value=today.getDate();
 		document.getElementsByName('yearverfReceivedDate')[0].value=today.getFullYear();			
 		document.getElementsByName('typeCd')[0].value='CAS';
+		document.getElementById('rtcheck1').onchange();
 		setTimeout(function() {}, 10000);
 		document.getElementsByName('resourceVrfCd')[0].value='HC';
 		document.getElementsByName('jointlyOwnedSw')[0].value='N';
