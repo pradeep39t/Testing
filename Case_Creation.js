@@ -22,7 +22,7 @@ function myFunction(){
 		document.getElementById('actionButtonNext').click();
 	}   
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Individual - Individual'){
-		document.getElementById('gender').value='F';
+		document.getElementById('gender').value='M';
 		document.getElementById('monthdateOfBirth1').value='09';
 		document.getElementById('datedateOfBirth1').value='22';
 		document.getElementById('yeardateOfBirth1').value='1985';
