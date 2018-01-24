@@ -45,7 +45,8 @@ function myFunction(){
 		document.getElementById('maFormCd').value='HCS-250';
 		document.getElementById('Medicaid').checked = true;
 		document.getElementById('Cash').checked =true;
-		document.getElementById('SNAP').checked = true;		
+		document.getElementById('SNAP').checked = true;
+		document.getElementById('button4').click();
 	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Program - Expedited Screening'){
 		document.getElementById('expeditedCountableGrossIncome').value='200';
