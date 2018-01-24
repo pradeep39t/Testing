@@ -44,7 +44,7 @@ function myFunction(){
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Program - Program'){
 		document.getElementById('maFormCd').value='HCS-250';
 		document.getElementById('Medicaid').checked = true;
-		document.getElementById('cash').checked =true;
+		document.getElementById('Cash').checked =true;
 		document.getElementById('SNAP').checked = true;		
 	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Program - Expedited Screening'){
