@@ -7,7 +7,7 @@ function myFunction(){
 		document.getElementsByName('appModeCd')[0].value='WI';
 		document.getElementsByName('firstName')[0].value='Suzanne';
 		document.getElementsByName('lastName')[0].value='Shaw';
-		document.getElementById('button2');      
+		document.getElementById('button2').click();      
     	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Application - Address'){
 		document.getElementsByName('streetNumber')[0].value='101';
