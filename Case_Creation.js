@@ -43,8 +43,9 @@ function myFunction(){
 	}	
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Program - Program'){
 		document.getElementById('maFormCd').value='HCS-250';
-		//document.getElementById('cash').checked;
-		//document.getElementById('SNAP').checked;		
+		document.getElementById('Medicaid').checked;
+		document.getElementById('cash').checked;
+		document.getElementById('SNAP').checked;		
 	}
 	if(document.getElementById('PRINTTITLE').innerHTML=='Register Program - Expedited Screening'){
 		document.getElementById('expeditedCountableGrossIncome').value='200';
